@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f3f3f3;
+}    
+
+h1,h2,h3,h4{
+    font-family: 'Staatliches', cursive;
+}
+
+.main-nav{
+    background-color: white;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.socials a{
+    color:#777777;
+    padding: 0.2rem;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-self: end;
+    list-style: none;
+}
+
+.nav-container img{
+    width: 180px;
+
+}
+
+ul a{
+    text-decoration: none;
+    color:black;
+    padding: 0.6rem;
+    line-height: 1.7;
+}
+
+li a.current{
+    background-color: firebrick;
+    color: white;
+
+}
+
+li a:hover{
+    color:black;
+    background-color: #f3f3f3;
+}
+
+
+#FBLOGO,#TWITTERLOGO,#INSTAGRAMLOGO,#YOUTUBELOGO{
+    transition: all 0.8s;
+}
+#FBLOGO:hover,#TWITTERLOGO:hover{
+    color:dodgerblue;
+    font-size: 2.3rem;
+}
+
+#INSTAGRAMLOGO:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:2.3rem;
+}
+
+#YOUTUBELOGO:hover{
+    color: #ff0000;
+    font-size: 2.3rem;
+}
+
